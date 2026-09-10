@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    flex: wrap;
+    flex-wrap: wrap;
+}
+
+
+body{
+    background-color: pink;
+}
+
+.card{
+    /* height: 200px; */
+    width: 200px;
+    border: 1px solid green;
+    background-color: white;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgb(255,0,0);
+}
+img{
+    width: 100%;
+    height: 250px;
+    transition: transform .4s;
+
+}
+img:hover{
+    transform: scale(1.2);
+}
+.content{
+    text-align: center;
+}

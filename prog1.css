@@ -1,0 +1,26 @@
+.box{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.block{
+    display: block;
+    background-color: green;
+}
+
+.inline{
+    display: inline;
+    background-color: orange;
+}
+.inline-block{
+    display: inline-block;
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+}
+.none{
+    display: none;
+}
